@@ -1,0 +1,14 @@
+{
+  "project_name": "AI-Driven Oil Spill Identification and Monitoring System",
+  "base_dir": "C:/Users/Admin/.gemini/antigravity/scratch/OilSpillAI",
+  "dataset_dir": "C:/Users/Admin/.gemini/antigravity/scratch/OilSpillAI/dataset",
+  "models_dir": "C:/Users/Admin/.gemini/antigravity/scratch/OilSpillAI/models",
+  "reports_dir": "C:/Users/Admin/.gemini/antigravity/scratch/OilSpillAI/reports",
+  "db_path": "C:/Users/Admin/.gemini/antigravity/scratch/OilSpillAI/database.db",
+  "img_width": 224,
+  "img_height": 224,
+  "batch_size": 16,
+  "epochs": 8,
+  "model_path": "C:/Users/Admin/.gemini/antigravity/scratch/OilSpillAI/models/saved_model.keras",
+  "classification_threshold": 0.5
+}
