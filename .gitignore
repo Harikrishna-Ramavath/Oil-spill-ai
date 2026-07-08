@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# Environment files
+.env
+
+# Database
+database.db
+
+# Python cache
+*.pyc
+
+# Model artifacts and logs
+models/saved_model.keras
+models/*.keras
+models/*.h5
+models/*.pt
+models/*.ckpt
+models/logs/
+models/*.png
+models/*.jpg
+
+# Dataset (large files)
+dataset/
+
+# Streamlit generated predictions
+streamlit_app/assets/predictions/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
