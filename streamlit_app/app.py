@@ -24,6 +24,10 @@ st.set_page_config(
 )
 
 # Import backend modules
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.database import (
     authenticate_user, create_user, get_dashboard_metrics,
     get_daily_detections, get_severity_distribution, get_prediction_history
